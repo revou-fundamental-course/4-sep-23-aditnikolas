@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+    <script src="js/index.js"></script>
+    <header>
+        <h1>KALTIK <span class="headerKaltik">Kalkulator Matematik</span></h1>
+    </header>
+    <!-- welcome to Kaltik -->
+    <div>
+    <p><span class="welcomeKaltik">Welcome to Kaltik!</span>
+    <br>Hai Sobat! Selamat datang di Kaltik &#128513;
+    <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun Persegi!</p>
+    <section class="inputButton">
+        <div id="inputLuas"><button class="inputTombol" onclick="switchLuasPersegi()">Luas Persegi</button></div>
+        <div id="inputKeliling"><button class="inputTombol" onclick="switchKelPersegi()">Keliling Persegi</button></div>
+    </section>
+    </div>
+    <!-- Keterangan Luas dan Keliling Persegi -->
+    <div class="luasPersegiPage" id="luasPersegiPageId">    
+        <div id="luasHeader" class="luasKelilingHeader">
+            <h4>Luas Persegi</h4>
+        </div>
+        <div id="kelilingHeader" class="luasKelilingHeader">
+            <h4>Keliling Persegi</h4>
+        </div>
+        <div class="ketLuas">
+            <table class="tablePersegi">
+                <tr>
+                    <td class="tablePersegi1">A</td>
+                    <td></td>
+                    <td class="tablePersegi2">B</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    <div class="persegi"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tablePersegi3">D</td>
+                    <td></td>
+                    <td class="tablePersegi4">C</td>
+                </tr>
+            </table>
+            <h4>Bujur Sangkar</h4>
+                <div id="ketLuasId" class="ketPersegi">
+                        Rumus Luas Persegi yaitu :
+                    <br><div class="ketRumusPersegi">L = S x S</div>
+                    Dimana :
+                    <br>L = Luas
+                    <br>S = Sisi
+                </div>
+                <div id="ketKelId" class="ketPersegi">
+                        Rumus Keliling Persegi yaitu :
+                    <br><div class="ketRumusPersegi">K = 4 x S</div>
+                    Dimana :
+                    <br>K = Keliling
+                    <br>S = Sisi
+                </div>
+                <br>
+        </div>
+    </div>
+    <!-- Masukan Angka -->
+    <br>
+    <section class="inputSisi">
+        <label for="inputField">Masukan Sisi Persegi  </label>
+        <input type="number" id="inputField" placeholder="Masukan Panjang Sisi">
+    </section>
+    <!-- Hasil Perhitungan Luas -->
+    <div class="hasilHitung" id="hasilPerhitungan">
+        <p> <span id="rumusLagi"></span>
+            <br><span id="rumusAngka"></span>
+            <br><span id="hasilHitung"></span>
+        </p>
+    </div>
+    <section class="inputButton">
+        <button class="inputTombol" id="hitung" onclick="hitungFinal()">Hitung!</button>
+        <button class="inputTombol" id="reset" onclick="resetAngka()">Reset!</button>
+    </section>
+    <footer>
+        Website Created by <b>Aditya Nikolas P.</b> with <b>RevoU Mini Course Learning!</b>
+    </footer>
+</body>
+</html>
