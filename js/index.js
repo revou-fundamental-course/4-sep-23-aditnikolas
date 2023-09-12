@@ -73,7 +73,6 @@ function hitungFinal() {
         document.getElementById("rumusAngka").innerHTML = "";
         document.getElementById("hasilHitung").innerHTML = "Panjang sisi tidak bisa negative";
     }
-    // document.getElementById("hasilHitung").innerHTML = "kosong"+valueNum+"test";
 }
 
 
