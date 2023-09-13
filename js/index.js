@@ -19,7 +19,7 @@ function switchKelPersegi() {
 
 // function hitungLuas() {
 //     let valueNum = document.getElementById("inputField").value;
-//     let result = 0;
+//     let result;
     
 //     if (rumusLuas = true) {
 //         result = parseInt(valueNum) * parseInt(valueNum);

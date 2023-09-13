@@ -97,7 +97,6 @@ td {width: 100px; /*border: 1px solid;*/}
 
 /* CSS Switch Luas / Keliling Formula */
 .inputButton {
-    /* background-color: #48DBD7; */
     margin-top: 10px;
     margin-left: 100px;
     margin-right: 100px;
@@ -131,7 +130,7 @@ td {width: 100px; /*border: 1px solid;*/}
 #inputField {
     padding: 5px;
     width: 50%;
-    /* initial-value: ""; */
+    /* initial-value */
 }
 .inputTombol:hover {
     background-color :orange;
