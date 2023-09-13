@@ -131,7 +131,7 @@ td {width: 100px; /*border: 1px solid;*/}
 #inputField {
     padding: 5px;
     width: 50%;
-    /* initial-value: 0; */
+    /* initial-value: ""; */
 }
 .inputTombol:hover {
     background-color :orange;

@@ -1,5 +1,5 @@
 let rumusLuas = true;
-// let rumusKeliling = Boolean;
+// let rumusKeliling;
 
 
 function switchLuasPersegi() {
